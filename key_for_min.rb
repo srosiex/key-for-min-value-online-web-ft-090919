@@ -1,6 +1,6 @@
 # # prereqs: iterators, hashes, conditional logic
 # # Given a hash with numeric values, return the key for the smallest value
-# name_hash = {:blake => 500, :ashley => 2, :adam => 1}
+name_hash = {:blake => 500, :ashley => 2, :adam => 1}
 # # def key_for_min_value(name_hash)
 # #     name_hash.empty?
 # #   name_hash.sort_by {|key, value| value}.first
@@ -24,12 +24,12 @@
 # min_key
 # end
 
-ikea = {:chair => 25, :table => 85, :mattress => 450}
+# ikea = {:chair => 25, :table => 85, :mattress => 450}
 
-def key_for_min(ikea)
-ikea.each do |item, price|
-  if price <= price
-return item
+def key_for_min(name_hash)
+ikea.each do |key, value|
+  if value <= value
+return key
   end
   end
   end
