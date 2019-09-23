@@ -33,4 +33,4 @@ return key
   end
   end
   end
-  key_for_min(ikea)
+  key_for_min(name_hash)
