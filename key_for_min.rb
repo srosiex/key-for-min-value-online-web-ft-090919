@@ -27,7 +27,7 @@ name_hash = {:blake => 500, :ashley => 2, :adam => 1}
 # ikea = {:chair => 25, :table => 85, :mattress => 450}
 
 def key_for_min(name_hash)
-ikea.each do |key, value|
+name_hash.each do |key, value|
   if value <= value
 return key
   end
