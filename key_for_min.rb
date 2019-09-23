@@ -7,7 +7,7 @@
 # #   end
 # #
 # #   key_for_min_value(name_hash)
-# 
+#
 # def key_for_min_value(name_hash)
 # # code goes here
 # min_value = nil
